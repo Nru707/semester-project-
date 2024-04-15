@@ -17,6 +17,7 @@ const App =() =>{
     AOS.refresh();
   },[]);
   return <div>
+
     <Navbar/>
     <Hero/>
     <Products/>

@@ -116,7 +116,7 @@ const Navbar = () => {
                 <div className='login'>
                     <button 
                 className= "bg-gray-400  text-black py-1 px-4 rounded-full flex items-center gap-3 group hover:bg-slate-600 hover:text-white" >
-                    <span>Login</span>
+                    <a>Login</a>
                     <FaUserCheck
                     className="text-xl text-white drop-shadow-sm cursor-pointer"/>
                 </button>
