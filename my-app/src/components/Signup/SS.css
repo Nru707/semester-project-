@@ -1,0 +1,89 @@
+.container {
+  background-image: linear-gradient(150deg,MediumSlateBlue, Violet);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+
+.wrapper .title1 {
+  margin-left: 195px;
+  margin-bottom: 5px;
+}
+
+.wrapper .title11 {
+  margin-left: 230px;
+  margin-bottom: 5px;
+}
+
+.ip {
+  width: 200px;
+  margin: 10px 0 15px 50px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.radiob {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(150deg,MediumSlateBlue, Violet);
+  color: white;
+  cursor: pointer;
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 600px) {
+  .wrapper {
+      width: 90%;
+      height: 550px;
+  }
+
+  .ip {
+    margin-left: 10px;
+    width: 170px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+
+  .title {
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+
+  .wrapper .title1{
+    margin-left: 130px;
+    margin-bottom: 5px;
+  }
+
+  .wrapper .title11{
+    margin-left: 160px;
+    margin-bottom: 5px;
+  }
+}
