@@ -1,0 +1,205 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css");
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+.herosection{
+    position: relative;
+    overflow: hidden;
+
+
+}
+.herosection *{
+    outline: none;
+}
+.herosection .slick-arrow{
+    position: absolute;
+    top: 45%;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px !important;
+    height: 40px !important;
+    background-color: rgb(134, 132, 132);
+    border-radius: 100%;
+    font-weight: 300;
+
+}
+
+.herosection .slick-arrow.slick-prev{
+    left: 25px !important;
+}
+.herosection .slick-arrow.slick-next{
+    right: 25px !important;
+}
+
+/*......................... Home page Prodect.................*/
+.cursor{
+    cursor: pointer;
+}
+.homeproducts{
+    padding: 25px 0px;
+    width: 100%;
+}
+.homeproducts .banner{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.text-light{
+    color: #777373 !important;
+}
+.txt-sml{
+    font-size: 14px;
+}
+.productRow .hd{
+    font-size: 25px;
+    font-weight: 600;
+}
+/* View all button.*/
+.view{
+    width: 150px;
+    height: 45px;
+    padding: 8px 15px !important;
+    background: white;
+    margin-left: auto !important;
+    border: 1px solid rgba(0,0,0,0.1) !important;
+    border-radius: 25px !important;
+    color: black !important;
+    font-weight: 600 !important;
+    font-size: 13px;
+    text-transform: capitalize !important;
+   
+}
+.view:hover{
+    background-color: #9c9797 !important;
+}
+
+/* product.........................................*/
+
+.productItem{
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(0,0,0,0.1);
+    cursor: pointer;
+    position: relative;
+}
+.productItem .badge{
+    display: inline-block;
+    padding: 7px 10px;
+    color: black;
+    position: absolute;
+    top: 10px;
+    left:10px;
+    z-index: 100;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: #2bbef9 !important;
+    font-size: 14px;
+
+}
+.badge-primary {
+    background: #2bbef9 !important;
+}
+.productItem  .info h6{
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.productItem .info{
+    padding: 15px;
+}
+.productItem .info .oldprice{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.2);
+    text-decoration: line-through;
+}
+.productItem .info .netprice{
+    font-size: 18px;
+    font-weight: bold;
+   
+
+}
+.product_row .item{
+    border-right: 1px solid transparent !important;
+}
+.product_row .swiper-slide:last-child .productItem{
+    border: 2px solid rgba(0,0,0,0.1) !important;
+
+}
+.swiper{
+    padding-right: 1px !important;
+}
+ .productItem .action{
+    /* full screen icon and heart icon*/
+    position: absolute;
+    top: 20px;
+    right: -100%;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.productItem .action button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px !important;
+    min-width: 40px !important;
+    height: 40px !important;
+    border: 1px solid rgba(0,0,0,0.1) !important;
+    border-radius: 50%;
+    background: #fff;
+    color: rgba(0,0,0,0.4) !important;
+    box-shadow: 0 1px 3px rgb(0 0 0 /12%), 0 1px 2px rgb(0 0 0 /24%) !important;
+    transition: all 0.0s !important;
+}
+.productItem .imageWrapper{
+    overflow: hidden;
+}
+.productItem .imageWrapper:hover .action{
+    opacity: 1;
+    right: 10px;
+
+}
+.productItem .imageWrapper img{
+    transition:  all 0.3 ease-in-out;
+}
+.productItem .imageWrapper :hover img{
+    transform: scale(1.1);
+
+}
+.productItem .action button svg{
+    color: black;
+    opacity: 0.7;
+    pointer-events: none;
+    font-size: 15px;
+}
+.productItem .action button:hover{
+    background: #8c97cc;
+}
+.productItem .action button:hover svg{
+    color: #1d2ae4 !important;
+}
+.banner .btext{
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 100px;
+    width: 150px;
+    color: #1fb4be;
+    padding-top: -10px;
+    position: absolute;
+    z-index: 100;
+    right: 80%;
+
+}
+.banner .btext b{
+    color: rgb(241, 24, 24);
+}
