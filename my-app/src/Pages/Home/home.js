@@ -2,7 +2,7 @@ import HomeBanner from '../../Components/HomeBanner/indexhome';
 import '../Home/home.css';
 import banner from "../../assest/images/bannerside.webp";
 import banner1 from "../../assest/images/banner1.jpg";
-import { Button } from '@mui/material';
+import  Button  from '@mui/material/Button';
 import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
