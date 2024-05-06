@@ -1,0 +1,191 @@
+.container{
+    max-width: 1140px;
+}
+.row{
+    width: 100%;
+    height:50px;
+  /*  background-color: #0a6c6c;*/
+  background:rgb(221, 226, 226);
+    
+}
+.part1{
+
+    background:rgb(221, 226, 226);
+    padding: 10px 20px !important;
+    height: 30px;
+   
+
+}
+.part1 .cat{
+    position: relative;
+  
+    
+}
+.part1 .cat .sidebarNav{
+    width:100%;
+    height: 0px;
+    background-color: #fff;
+    position: absolute;
+    top: 135%;
+    left: 0px;
+    padding-top: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s;
+    border:1px solid rgb(119, 118, 118);
+    z-index: 100;
+
+}
+.part1 .cat .sidebarNav.open{
+    height: 100%;
+    opacity: 1;
+    height: auto;
+    visibility: inherit;
+}
+.part1 .cat .sidebarNav ul li{
+    width: 100%;
+    margin: 4px;
+    padding: 0px 10px;
+    list-style: none;
+
+}
+.part1 .cat .sidebarNav ul li{
+    position: static;
+}
+
+.part1 .cat .sidebarNav ul li .submenu{
+    position: absolute;
+    top:0px;
+    left: 101%;
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+    border-left: 1px solid rgba(0,0,0,0.1);
+    padding: 20px;
+
+
+}
+.part1 .cat .sidebarNav ul li .submenu Button{
+    border-radius: 0px !important;
+
+}
+.part1 .cat .sidebarNav ul li:hover .submenu{
+    opacity: 1;
+    left: 100%;
+    visibility: inherit;
+    
+
+}
+.part1 .cat .sidebarNav ul li Button{
+    color: #000;
+    width: 100%;
+   justify-content: flex-start !important;
+   text-transform: capitalize !important;
+   font-weight: 500;
+   font-size: 1rem;
+
+}
+.part1 .cat .sidebarNav ul li Button svg{
+    font-size: 21px;
+    margin-left: auto;
+    opacity: 0.6;
+    color: rgb(165, 163, 161);
+    
+}
+.part1 .cat .sidebarNav ul li Button:hover{
+    background: transparent !important;
+}
+
+Button{
+    width: 40px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.category{
+    align-items: center;
+}
+.category:hover svg{
+    font-size: 30px;
+}
+.category *{
+    color: rgb(1, 2, 44);
+
+}
+@media(min-width:1200px){
+    .container{
+        max-width: 1200px;
+    }
+}
+
+
+.part2 ul{
+    margin-bottom: 0px;
+    margin-left: auto;
+
+}
+.part2 ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(1, 2, 44);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    padding: 8px 6px !important;
+    transition: all 0.2s ease-in-out;
+
+}
+.part2 ul li a:hover{
+    color:rgb(20, 134, 228);
+    background-color: #02abf321;
+    border-radius: 15px;
+}
+
+/*@media(min-width:576px){
+    .col-sm-9{
+        width:75%;
+    }
+}*/
+.part2 ul li{
+    position: relative;
+    padding-bottom: 14px;
+
+}
+.part2 ul li .submenu{
+    position: absolute;
+    top: 150%;
+    left:0px;
+    min-width: 200px;
+    background-color: #ecf3f5;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 100;
+    transition: all 0.1s ease;
+
+}
+.part2 ul li .submenu a{
+    display: block;
+    width: 100%;
+}
+.part2 ul li .submenu a Button{
+    width: 100%;
+    justify-content: flex-start !important;
+    border-radius: 0px !important;
+    text-transform: capitalize !important;
+    color: rgb(2, 3, 23);
+    font-weight: 500;
+    background-color: transparent;
+
+}
+.part2 ul li:hover .submenu{
+    opacity: 1;
+    visibility: inherit;
+    top: 100%;
+
+}
