@@ -188,18 +188,81 @@
 .productItem .action button:hover svg{
     color: #1d2ae4 !important;
 }
-.banner .btext{
-    font-size: 28px;
-    font-weight: 700;
-    padding-bottom: 100px;
-    width: 150px;
-    color: #1fb4be;
-    padding-top: -10px;
-    position: absolute;
-    z-index: 100;
-    right: 80%;
+
+.homeCat{
+    padding: 35px 0px;
+}
+
+.homeCat .swiper .item{
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    background: #feefea;
+    border-radius: 10px;
+}
+.homeCat .swiper .item img{
+    width: 80%;
+}
+.hd{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.homeCat .swiper{
+    overflow: inherit !important;
+    color: black;
+}
+
+.homeCat .swiper-button-prev, .homeCat .swiper-button-next{
+    top: -50px !important;
+    width: 30px !important;
+    height: 30px !important;
 
 }
-.banner .btext b{
-    color: rgb(241, 24, 24);
+.homeCat .swiper-button-prev{
+    right: 68px !important;
+    left: inherit !important;
 }
+.homeCat .swiper-button-prev::after, .homeCat .swiper-button-next::after{
+    font-size: 11px !important;
+
+
+}
+.productRow2{
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.productRow2 .productItem{
+    width: 24%;
+    overflow: hidden;
+    border-right: 1px solid rgba(0,0,0,0.1) !important;
+
+}
+
+.bannerSec{
+    gap: 15px;
+}
+.sticky{
+    position: sticky;
+    top: 10px;
+    z-index: 100;
+}
+
+.newsLetterSection{
+    width: 100% !important;
+    height: 300px !important;
+    background: #3317c1;
+    z-index: 100;
+  }
+  .newsLetterSection p{
+    font-size: 18px;
+  }
+  .newsLetterSection h3{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .newsLetterSection p.text-light{
+    color: #fff !important;
+    opacity: 0.5;
+    font-size:15px ;
+  }

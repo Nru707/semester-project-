@@ -30,7 +30,7 @@ const Navigation=()=>{
                                             </div></li>
                                         <li><Link to="/"><Button>Grocery<GoTriangleRight className='ml-auto' /></Button>  </Link>
                                         <div className='submenu'>
-                                        <Link to="/"><Button> Mobiles</Button></Link>
+                                        <Link to="/"><Button> atta</Button></Link>
                                          <Link to="/"><Button> Laptop</Button></Link>
                                          <Link to="/"><Button> KeyBoards</Button></Link>
                                          <Link to="/"><Button> Headphones</Button></Link>
